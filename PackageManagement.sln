@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyWeb", "TinyWeb\TinyWeb.csproj", "{AD9E25DC-4E48-43D1-802F-80C6D7AA7A6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyDesktop", "TinyDesktop\TinyDesktop.csproj", "{712E46CD-5937-4424-B4D3-084478C5502C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyAsp", "TinyAsp\TinyAsp.csproj", "{33D6882A-23F2-4F2F-9EDD-F291011AF545}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD9E25DC-4E48-43D1-802F-80C6D7AA7A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9E25DC-4E48-43D1-802F-80C6D7AA7A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9E25DC-4E48-43D1-802F-80C6D7AA7A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9E25DC-4E48-43D1-802F-80C6D7AA7A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712E46CD-5937-4424-B4D3-084478C5502C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712E46CD-5937-4424-B4D3-084478C5502C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712E46CD-5937-4424-B4D3-084478C5502C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712E46CD-5937-4424-B4D3-084478C5502C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33D6882A-23F2-4F2F-9EDD-F291011AF545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D6882A-23F2-4F2F-9EDD-F291011AF545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D6882A-23F2-4F2F-9EDD-F291011AF545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D6882A-23F2-4F2F-9EDD-F291011AF545}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
